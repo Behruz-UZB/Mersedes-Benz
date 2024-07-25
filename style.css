@@ -1,0 +1,51 @@
+.father {
+    width: 1000px;
+    height: 600px;
+    border: 2px solid #ff0000;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 230px;
+    height: 300px;
+    border: 2px solid green;
+    transition: .5s;
+}
+
+.box:hover {
+    box-shadow: 2px 2px 20px green;
+    transition: .5s;
+}
+
+.father1 {
+    width: 1000px;
+    height: 600px;
+    border: 2px solid #ff0000;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1 {
+    width: 230px;
+    height: 300px;
+    border: 2px solid green;
+    transition: .5s;
+}
+
+.box1:hover {
+    box-shadow: 2px 2px 20px green;
+    transition: .5s;
+}
+
+.mers-image{
+    width: 100%;
+}
+
+.text-group{
+    padding: 0 5px 0 5px;
+}
